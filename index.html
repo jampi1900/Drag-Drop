@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrastrar y Soltar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+    <div class="contenedor">
+        <h1 class="Titulo">Lista de Tareas</h1>
+        <div class ="Contenedor_Boton">
+            <button class="boton-anadir" onclick="agregarTarea()">Añadir Tarea</button>
+        </div>
+        
+
+        <div class="contenedor_segundario">
+            <section class='Marco_1' ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>Por Hacer</h3>
+            </section>
+
+            <section class='Marco_2' ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>En Proceso</h3>
+            </section>
+
+            <section class='Marco_3' ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>Finalizado</h3>
+                
+            </section>
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(8, 160, 135);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width:  1200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.contenedor_segundario{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+    padding: 10px;
+    gap:30px;
+    
+}
+
+.Marco_1{
+    text-align: center;
+    width: 250px;
+    background-color:rgb(246, 212, 102);
+    border-radius: 10px;
+    height: auto;
+
+        
+    
+
+}
+
+.Marco_2{
+    text-align: center;
+    width: 250px;
+    background-color:rgb(246, 148, 102);
+    border-radius: 10px;
+    height: auto;
+}
+
+.Marco_3{
+    text-align: center;
+    width: 250px;
+    background-color:rgb(102, 179, 246);
+    border-radius: 10px;
+    height: auto;
+}
+
+
+
+.Titulo {
+    color:#000000a1;
+    text-align: center;
+}
+
+
+.Tarea {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que los elementos flexibles se coloquen en varias líneas si es necesario */
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;  /* Espaciado entre elementos .Tarea */
+    max-width: 100%;  /* El ancho máximo será el 100% del contenedor padre */
+    height: auto; 
+
+     /* Estilos para ajustar el texto */
+     word-wrap: break-word;
+     overflow: hidden;
+     word-break: break-all;
+}
+
+p {
+    text-align: center;
+
+}
+
+
+.boton-anadir{
+    cursor: pointer;
+    background-color: rgb(152, 73, 231);
+    color: white;
+    border:none;
+    text-align: center;
+    border-radius: 5px;
+    font-size:20px;
+    padding: 10px 10px;
+}
+
+.boton-anadir:hover{
+    background-color:rgb(244, 72, 107);
+    color :rgba(0, 0, 0, 0.9);
+}
+
+
+.Contenedor_Boton{
+    margin: 0px 0px 0px 20px;
+    
+}
